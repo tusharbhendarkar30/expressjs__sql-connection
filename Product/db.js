@@ -5,7 +5,9 @@ const pool = mysql2.createPool({
     user:'root',
     password:'root123',
     database:'tushar',
-    waitForConnections:true
+    waitForConnections:true,
+	port:3306
+	
 })
 
 module.exports =pool 
